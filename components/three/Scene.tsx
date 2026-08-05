@@ -8,18 +8,18 @@ import {
   Environment
 } from "@react-three/drei";
 
-
 import HeroModel from "./HeroModel";
 import FloatingIcons from "./FloatingIcons";
 import CameraRig from "./CameraRig";
 import Lights from "./Lights";
-
 
 export default function Scene(){
 
 return (
 
 <Canvas
+
+key="hero-canvas"
 
 frameloop="always"
 
@@ -40,55 +40,25 @@ powerPreference:"high-performance"
 
 >
 
-
-{/* CAMERA */}
-
 <CameraRig />
-
-
-
-{/* LIGHTING */}
 
 <Lights />
 
-
-
-{/* ENVIRONMENT */}
-
 <Environment preset="city" />
 
-
-
-{/* SPACE BACKGROUND */}
-
 <Stars
-
 radius={100}
-
 depth={60}
-
 count={1200}
-
 factor={4}
-
 saturation={0}
-
 fade
-
 />
 
-
-
-{/* MAIN CUBE */}
-
 <Float
-
 speed={1.5}
-
 rotationIntensity={0.25}
-
 floatIntensity={0.45}
-
 >
 
 <HeroModel />
@@ -96,12 +66,7 @@ floatIntensity={0.45}
 </Float>
 
 
-
-{/* TECH ICONS */}
-
 <FloatingIcons />
-
-
 
 </Canvas>
 
