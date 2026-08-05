@@ -78,25 +78,25 @@ export default function Loader() {
               />
 
             </motion.div>
+<motion.h1
 
-            <motion.h1
+  className="loaderTitle"
 
-              className="loaderTitle"
+  animate={{
+    opacity:[.4,1,.4],
+    scale:[1,1.05,1]
+  }}
 
-              animate={{
-                opacity: [.4, 1, .4]
-              }}
+  transition={{
+    duration:1.5,
+    repeat:Infinity
+  }}
 
-              transition={{
-                duration: 1.5,
-                repeat: Infinity
-              }}
+>
 
-            >
+  LWKY HYPING UP ⚡
 
-              ANANT
-
-            </motion.h1>
+</motion.h1>
 
             <motion.p
 

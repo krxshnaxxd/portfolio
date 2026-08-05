@@ -40,11 +40,11 @@ export default function About() {
             Who am I?
           </h3>
 
-          <p>
-            I'm <b>Anant Salotri</b>, a passionate Frontend Developer
-            who loves creating modern, interactive and immersive web
-            experiences.
-          </p>
+         <p>
+I&apos;m <b>Anant Salotri</b>, a passionate Frontend Developer
+who loves creating modern, interactive and immersive web
+experiences.
+</p>
 
           <br />
 
